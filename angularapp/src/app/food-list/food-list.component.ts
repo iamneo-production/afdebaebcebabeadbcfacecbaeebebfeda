@@ -22,7 +22,7 @@ export class FoodListComponent implements OnInit {
   quantity: number;
   totalCalories: number = 0;
 
-  constructor() {}
+  
 
   ngOnInit() {
     this.foods = foodsList;
